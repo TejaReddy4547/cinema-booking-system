@@ -1,0 +1,46 @@
+<html>
+<body>
+<form name="form1" method="post" action="http://localhost:7036/SRKR/addmovie.jsp" >
+<style>
+body {
+  background-image: url('addmovie.jpg');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<center>
+<h1 >ADD MOVIE DETAILS</h1>
+<h2 > Movie Id:
+<input type="number" min ="1" max ="8" name="movid"\>
+<h5 >(movie id should be betweeen 1 to 8)</h5></h2>
+
+<h2 > MOVIE IMAGE:
+<input type="file" name="movimg"\></h2>
+<br>
+<h2 > TRAILER POSTER:
+<input type="file" name="poster"\></h2>
+<br>
+<h2 > MOVIE TRAILER:
+<input type="file" name="movtra"\></h2>
+<br>
+<h2 >ENTER MOVIE NAME:
+<input type="text" name="movname"\></h2>
+<br>
+<h2 >ENTER CAST DETAILS:
+<input type="text" name="cast"\></h2>
+<br>
+<h2 >ENTER THEATRE NAME:
+<input type="text" name="tname"\></h2>
+<br>
+<h2 >ENTER THEATRE ADDRESS:
+<input type="text" name="tadd"\></h2>
+<br>
+<h2 >ENTER SCREEN NUMBER:
+<input type="number" min="1" max ="2" name="scno"\></h2>
+<br>
+<input type="submit" value="insert">
+</center>
+</form>
+</body>
+</html> 
